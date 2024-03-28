@@ -5,6 +5,56 @@
     padding: 0; 
 }
 
+.hdn-sign-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hdn-sign-btn button
+{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    /* background: #ffd814; */
+    background:#ffd814;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.hdn-sign-btn button:hover
+{
+    text-decoration: underline;
+}
+
+.hdn-sign-btn button:active
+{
+    transform: scale(0.95);
+}
+
+.hdn-sign-para
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top:5px ;
+    margin-bottom: 5px;
+}
+
+.hdn-sign-para span
+{
+    font-size: 12px;
+    color: #007185;
+    margin-left: 2px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
 a
 {
     text-decoration: none;
@@ -937,7 +987,7 @@ ul a{
     z-index: 101;
     transition: all 2s;
     width: 500px;
-    height: 350px;
+    height: 420px;
     display: none;
     top: 54px;
     right: 80px;
