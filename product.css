@@ -340,5 +340,15 @@ span
     cursor: pointer;
 }
 
+.products-slider
+{
+    border: 1px solid #c1c1c1;
+}
+
+.products-slider-with-price
+{
+    border: 1px solid #c1c1c1;
+}
+
 
 
